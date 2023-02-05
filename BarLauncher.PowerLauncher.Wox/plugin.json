@@ -1,0 +1,12 @@
+﻿{
+  "ID": "638A9909706182000000000000000001",
+  "ActionKeyword": "pla",
+  "Name": "PowerLauncher",
+  "Description": "Focus or start an application or a resource with an application",
+  "Author": "gissehel",
+  "Version": "0.0.1",
+  "Language": "csharp",
+  "Website": "https://github.com/gissehel/BarLauncher-PowerLauncher",
+  "IcoPath": "BarLauncher-PowerLauncher-64.png",
+  "ExecuteFileName": "BarLauncher.PowerLauncher.Wox.dll"
+}

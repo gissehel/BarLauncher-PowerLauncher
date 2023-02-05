@@ -1,0 +1,12 @@
+﻿{
+  "ID": "CF8389C7-61AC-4387-93DE-370B31BD07EC",
+  "ActionKeyword": "pla",
+  "Name": "PowerLauncher",
+  "Description": "Focus or start an application",
+  "Author": "gissehel",
+  "Version": "0.0.1",
+  "Language": "csharp",
+  "Website": "https://github.com/gissehel/BarLauncher-PowerLauncher",
+  "IcoPath": "BarLauncher-PowerLauncher-64.png",
+  "ExecuteFileName": "BarLauncher.PowerLauncher.Flow.Launcher.dll"
+}

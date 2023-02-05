@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Lib", "BarLauncher.PowerLauncher.Lib\BarLauncher.PowerLauncher.Lib.csproj", "{F639FD63-26D4-4EF3-A58F-542A45C15193}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Wox", "BarLauncher.PowerLauncher.Wox\BarLauncher.PowerLauncher.Wox.csproj", "{300185A9-4F10-4020-8AF5-E5F8175204AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Test.Mock", "BarLauncher.PowerLauncher.Test.Mock\BarLauncher.PowerLauncher.Test.Mock.csproj", "{A642AC12-1421-4920-8F8D-4F5B05F693F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Test.Unit", "BarLauncher.PowerLauncher.Test.Unit\BarLauncher.PowerLauncher.Test.Unit.csproj", "{6595EC59-6B97-49D4-BB2A-65D34530BF7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Test.AllGreen", "BarLauncher.PowerLauncher.Test.AllGreen\BarLauncher.PowerLauncher.Test.AllGreen.csproj", "{D50B2F08-2121-430A-8F97-77107B9CB7FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarLauncher.PowerLauncher.Flow.Launcher", "BarLauncher.PowerLauncher.Flow.Launcher\BarLauncher.PowerLauncher.Flow.Launcher.csproj", "{432121BE-1482-4B0F-BE90-0D35FF5322FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{691F87AF-E095-4428-B5C6-905157B03893}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		VERSION = VERSION
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{21DE95FE-C689-4D1C-922C-2AD8A23C70F3}"
+	ProjectSection(SolutionItems) = preProject
+		comp.sh = comp.sh
+		publish-dev.sh = publish-dev.sh
+		version.sh = version.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{E30B79CE-5F53-4C79-8B12-297553767388}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+		.github\workflows\version.yml = .github\workflows\version.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{38E2966B-5C87-4A8B-9D06-7E844BB0C238}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{CDB380EB-F4FD-44CD-9CDF-3E9A26FC4BB4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F639FD63-26D4-4EF3-A58F-542A45C15193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F639FD63-26D4-4EF3-A58F-542A45C15193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F639FD63-26D4-4EF3-A58F-542A45C15193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F639FD63-26D4-4EF3-A58F-542A45C15193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300185A9-4F10-4020-8AF5-E5F8175204AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300185A9-4F10-4020-8AF5-E5F8175204AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300185A9-4F10-4020-8AF5-E5F8175204AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300185A9-4F10-4020-8AF5-E5F8175204AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A642AC12-1421-4920-8F8D-4F5B05F693F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A642AC12-1421-4920-8F8D-4F5B05F693F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A642AC12-1421-4920-8F8D-4F5B05F693F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A642AC12-1421-4920-8F8D-4F5B05F693F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6595EC59-6B97-49D4-BB2A-65D34530BF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6595EC59-6B97-49D4-BB2A-65D34530BF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6595EC59-6B97-49D4-BB2A-65D34530BF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6595EC59-6B97-49D4-BB2A-65D34530BF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50B2F08-2121-430A-8F97-77107B9CB7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50B2F08-2121-430A-8F97-77107B9CB7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50B2F08-2121-430A-8F97-77107B9CB7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50B2F08-2121-430A-8F97-77107B9CB7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432121BE-1482-4B0F-BE90-0D35FF5322FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432121BE-1482-4B0F-BE90-0D35FF5322FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432121BE-1482-4B0F-BE90-0D35FF5322FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432121BE-1482-4B0F-BE90-0D35FF5322FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBC08A9-1FFD-42E1-8F78-7FD3B0D3C11B}
+	EndGlobalSection
+EndGlobal

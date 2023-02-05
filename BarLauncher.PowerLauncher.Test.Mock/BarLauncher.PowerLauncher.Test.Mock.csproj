@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BarLauncher.EasyHelper.Test.Mock" Version="2.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BarLauncher.PowerLauncher.Lib\BarLauncher.PowerLauncher.Lib.csproj" />
+    </ItemGroup>
+</Project>
